@@ -1,0 +1,4 @@
+venv/
+embeddings/
+embeddings_chroma/
+__pycache__/

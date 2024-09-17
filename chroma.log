@@ -1,0 +1,1540 @@
+[32mINFO[0m:     [09-07-2024 16:23:25] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component System
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component SqliteDB
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component Posthog
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [09-07-2024 16:23:25] Starting component SegmentAPI
+[32mINFO[0m:     [09-07-2024 16:23:25] Started server process [[36m14200[0m]
+[32mINFO[0m:     [09-07-2024 16:23:25] Waiting for application startup.
+[32mINFO[0m:     [09-07-2024 16:23:25] Application startup complete.
+[32mINFO[0m:     [09-07-2024 16:23:25] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [09-07-2024 16:23:45] Shutting down
+[32mINFO[0m:     [09-07-2024 16:23:45] Waiting for application shutdown.
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component System
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component SegmentAPI
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component Posthog
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component SqliteDB
+[36mDEBUG[0m:    [09-07-2024 16:23:45] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [09-07-2024 16:23:45] Application shutdown complete.
+[32mINFO[0m:     [09-07-2024 16:23:45] Finished server process [[36m14200[0m]
+[32mINFO[0m:     [09-07-2024 16:24:17] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component System
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component SqliteDB
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component Posthog
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [09-07-2024 16:24:17] Starting component SegmentAPI
+[32mINFO[0m:     [09-07-2024 16:24:17] Started server process [[36m14687[0m]
+[32mINFO[0m:     [09-07-2024 16:24:17] Waiting for application startup.
+[32mINFO[0m:     [09-07-2024 16:24:17] Application startup complete.
+[32mINFO[0m:     [09-07-2024 16:24:17] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [09-07-2024 16:26:00] ::1:65005 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:26:00] ::1:65005 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:26:13] 127.0.0.1:65026 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:26:13] 127.0.0.1:65026 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:27:32] ::1:65159 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:27:56] ::1:65159 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:28:04] ::1:65159 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [09-07-2024 16:28:21] ::1:65229 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [09-07-2024 16:28:21] ::1:65229 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [09-07-2024 16:28:21] ::1:65230 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [09-07-2024 16:28:22] ::1:65230 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [09-07-2024 16:28:22] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [09-07-2024 16:28:22] ::1:65230 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/add HTTP/1.1" 201
+[32mINFO[0m:     [09-07-2024 16:28:22] ::1:65230 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:28:47] ::1:50172 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:28:47] ::1:50172 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[31mERROR[0m:    [10-07-2024 12:28:47] Collection my_collection already exists
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 105, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 100, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 118, in receive
+    return receiver.item
+           ^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 120, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 75, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/opt/homebrew/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 89, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 133, in async_wrapper
+    return await f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 590, in create_collection
+    await to_thread.run_sync(
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 580, in process_create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 146, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/api/segment.py", line 171, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 146, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/db/mixins/sysdb.py", line 220, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection my_collection already exists
+[32mINFO[0m:     [10-07-2024 12:28:47] ::1:50173 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [10-07-2024 12:29:10] ::1:50222 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:29:10] ::1:50222 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:29:10] ::1:50223 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:29:10] ::1:50223 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:31:34] ::1:50505 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:31:34] ::1:50505 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:31:34] ::1:50506 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:31:34] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:31:34] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:31:34] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:31:34] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:31:34] ::1:50506 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:32:08] ::1:50561 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:32:08] ::1:50561 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:32:08] ::1:50563 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:32:08] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:32:08] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:32:08] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:32:08] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:32:08] ::1:50563 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:33:30] ::1:50729 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:33:30] ::1:50729 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:33:30] ::1:50730 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:33:30] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:33:30] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:33:30] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:33:30] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:33:30] ::1:50730 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:36:32] ::1:51101 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:36:32] ::1:51101 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:36:32] ::1:51102 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:36:32] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:36:32] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:36:32] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:36:32] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:36:32] ::1:51102 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:36:44] ::1:51124 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:36:44] ::1:51124 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:36:44] ::1:51125 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:36:44] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:36:44] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:36:44] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:36:44] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:36:44] ::1:51125 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:38:12] ::1:51295 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:38:12] ::1:51295 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:38:12] ::1:51296 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:38:12] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:38:12] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:38:12] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:38:12] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:38:12] ::1:51296 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:38:56] ::1:51365 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:38:56] ::1:51365 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:38:56] ::1:51366 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [10-07-2024 12:38:56] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:38:56] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:38:56] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:38:56] Delete of nonexisting embedding ID: id2
+[32mINFO[0m:     [10-07-2024 12:38:56] ::1:51366 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/delete HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:44:42] ::1:51972 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:44:42] ::1:51972 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[31mERROR[0m:    [10-07-2024 12:44:42] Collection my_collection already exists
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 105, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 100, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 118, in receive
+    return receiver.item
+           ^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 120, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 75, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/opt/homebrew/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 89, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 133, in async_wrapper
+    return await f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 590, in create_collection
+    await to_thread.run_sync(
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 580, in process_create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 146, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/api/segment.py", line 171, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 146, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/db/mixins/sysdb.py", line 220, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection my_collection already exists
+[32mINFO[0m:     [10-07-2024 12:44:42] ::1:51973 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [10-07-2024 12:45:09] ::1:52022 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:45:09] ::1:52022 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:45:09] ::1:52023 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:47:51] Shutting down
+[32mINFO[0m:     [10-07-2024 12:47:51] Waiting for application shutdown.
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component System
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component SegmentAPI
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component Posthog
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component SqliteDB
+[36mDEBUG[0m:    [10-07-2024 12:47:51] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [10-07-2024 12:47:51] Application shutdown complete.
+[32mINFO[0m:     [10-07-2024 12:47:51] Finished server process [[36m14687[0m]
+[32mINFO[0m:     [10-07-2024 12:49:05] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component System
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component SqliteDB
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component Posthog
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [10-07-2024 12:49:05] Starting component SegmentAPI
+[32mINFO[0m:     [10-07-2024 12:49:05] Started server process [[36m83657[0m]
+[32mINFO[0m:     [10-07-2024 12:49:05] Waiting for application startup.
+[32mINFO[0m:     [10-07-2024 12:49:05] Application startup complete.
+[32mINFO[0m:     [10-07-2024 12:49:05] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [10-07-2024 12:49:14] ::1:52498 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:14] ::1:52498 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:15] ::1:52499 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 12:49:15] Starting component PersistentLocalHnswSegment
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id1
+[33mWARNING[0m:  [10-07-2024 12:49:15] Delete of nonexisting embedding ID: id2
+[33mWARNING[0m:  [10-07-2024 12:49:15] Number of requested results 3 is greater than number of elements in index 0, updating n_results = 0
+[32mINFO[0m:     [10-07-2024 12:49:15] ::1:52499 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:38] ::1:52597 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:38] ::1:52597 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:38] ::1:52598 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:38] ::1:52598 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:44] ::1:52623 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:44] ::1:52623 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:44] ::1:52624 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:49:44] ::1:52624 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:24] ::1:52899 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:24] ::1:52899 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:24] ::1:52900 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:24] ::1:52900 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:55] ::1:52947 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:55] ::1:52947 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:55] ::1:52948 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:51:55] ::1:52948 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:52:40] ::1:53029 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:52:40] ::1:53029 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:52:40] ::1:53030 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:54:16] ::1:53270 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:54:16] ::1:53270 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/add HTTP/1.1" 201
+[32mINFO[0m:     [10-07-2024 12:54:16] ::1:53270 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:54:49] ::1:53325 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:54:49] ::1:53325 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:54:49] ::1:53326 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:54:50] ::1:53326 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:55:58] ::1:53437 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:55:58] ::1:53437 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:55:58] ::1:53438 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 12:55:59] ::1:53438 - "POST /api/v1/collections/61bc0fef-f8a2-4c27-aaca-d55fb2b77911/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:44:39] ::1:64049 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:44:39] ::1:64049 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:44:39] ::1:64050 - "DELETE /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:47:09] ::1:64272 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:47:09] ::1:64272 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:47:09] ::1:64273 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:47:19] ::1:64273 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 14:47:19] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [10-07-2024 14:47:19] ::1:64273 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/add HTTP/1.1" 201
+[32mINFO[0m:     [10-07-2024 14:47:19] ::1:64273 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:48:05] ::1:64510 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:48:05] ::1:64510 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 14:48:05] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 14:48:05] ::1:64511 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:48:12] ::1:64511 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:48:12] ::1:64511 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/upsert HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:48:12] ::1:64511 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:49:20] ::1:64748 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:49:20] ::1:64748 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 14:49:20] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 14:49:20] ::1:64749 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:49:20] ::1:64749 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:54:22] ::1:65294 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:54:22] ::1:65294 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 14:54:22] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 14:54:22] ::1:65295 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:54:22] ::1:65295 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:57:22] ::1:49222 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:57:22] ::1:49222 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 14:57:22] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 14:57:22] ::1:49223 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 14:57:22] ::1:49223 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 15:34:11] ::1:52656 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 15:34:11] ::1:52656 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 15:34:11] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 15:34:11] ::1:52657 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 15:34:13] ::1:52657 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 15:34:26] ::1:52695 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 15:34:26] ::1:52695 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 15:34:26] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 15:34:26] ::1:52696 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 15:34:26] ::1:52696 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:15:43] ::1:56826 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:15:43] ::1:56826 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:15:43] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:15:43] ::1:56827 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:15:44] ::1:56827 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:16:31] ::1:56924 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:16:31] ::1:56924 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:16:31] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:16:31] ::1:56925 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:16:31] ::1:56925 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:17:16] ::1:57038 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:17:16] ::1:57038 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:17:16] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:17:16] ::1:57039 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:17:16] ::1:57039 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:18:01] ::1:57118 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:18:01] ::1:57118 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:18:01] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:18:01] ::1:57119 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:18:01] ::1:57119 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:18:33] ::1:57187 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:18:33] ::1:57187 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:18:33] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:18:33] ::1:57188 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:18:33] ::1:57188 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:20:00] ::1:57384 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:20:00] ::1:57384 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:20:00] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:20:00] ::1:57385 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:20:00] ::1:57385 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:20:29] ::1:57443 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:20:29] ::1:57443 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:20:29] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:20:29] ::1:57444 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:20:29] ::1:57444 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:11] ::1:57541 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:11] ::1:57541 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:21:11] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:21:11] ::1:57542 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:12] ::1:57542 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:28] ::1:57577 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:28] ::1:57577 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:21:28] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:21:28] ::1:57578 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:28] ::1:57578 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:43] ::1:57620 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:43] ::1:57620 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:21:43] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:21:43] ::1:57621 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:43] ::1:57621 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:54] ::1:57646 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:54] ::1:57646 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:21:54] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:21:54] ::1:57647 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:21:54] ::1:57647 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:22] ::1:57705 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:22] ::1:57705 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:22:22] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:22:22] ::1:57706 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:22] ::1:57706 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:33] ::1:57731 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:33] ::1:57731 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:22:33] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:22:33] ::1:57732 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:33] ::1:57732 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:43] ::1:57757 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:43] ::1:57757 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:22:43] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:22:43] ::1:57758 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:43] ::1:57758 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:56] ::1:57790 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:56] ::1:57790 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:22:56] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:22:56] ::1:57791 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:22:56] ::1:57791 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:23:03] ::1:57820 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:23:03] ::1:57820 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:23:03] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:23:03] ::1:57821 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:23:03] ::1:57821 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:23:15] ::1:57853 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:23:15] ::1:57853 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:23:15] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:23:15] ::1:57854 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:23:15] ::1:57854 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:24:21] ::1:57975 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:24:21] ::1:57975 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:24:21] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:24:21] ::1:57976 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:24:21] ::1:57976 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:24:30] ::1:57996 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:24:30] ::1:57996 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:24:30] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:24:30] ::1:57997 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:24:31] ::1:57997 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:25:16] ::1:58105 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:25:16] ::1:58105 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:25:16] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:25:16] ::1:58106 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:25:16] ::1:58106 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:25:37] ::1:58155 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:25:37] ::1:58155 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:25:37] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:25:37] ::1:58156 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:25:37] ::1:58156 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:18] ::1:58890 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:18] ::1:58890 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:32:18] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:32:18] ::1:58891 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:19] ::1:58891 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:27] ::1:58913 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:27] ::1:58913 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:32:27] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:32:27] ::1:58914 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:27] ::1:58914 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:54] ::1:58963 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:54] ::1:58963 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:32:54] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:32:54] ::1:58964 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:32:55] ::1:58964 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:33:53] ::1:59096 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:33:53] ::1:59096 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:33:53] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:33:53] ::1:59097 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:33:53] ::1:59097 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:34:36] ::1:59182 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:34:36] ::1:59182 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:34:36] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:34:36] ::1:59183 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:34:37] ::1:59183 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:15] ::1:59260 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:15] ::1:59260 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:35:15] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:35:15] ::1:59261 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:15] ::1:59261 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:25] ::1:59284 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:25] ::1:59284 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:35:25] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:35:25] ::1:59285 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:25] ::1:59285 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:49] ::1:59337 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:49] ::1:59337 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:35:49] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:35:49] ::1:59338 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:35:49] ::1:59338 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:40:43] ::1:59848 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:40:43] ::1:59848 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:40:43] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:40:43] ::1:59849 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:40:43] ::1:59849 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:17] ::1:59956 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:17] ::1:59956 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:41:17] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:41:17] ::1:59957 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:17] ::1:59957 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:22] ::1:59974 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:22] ::1:59974 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:41:22] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:41:22] ::1:59975 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:22] ::1:59975 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:36] ::1:60017 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:36] ::1:60017 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:41:36] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:41:36] ::1:60018 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:41:36] ::1:60018 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:48:43] ::1:60763 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:48:43] ::1:60763 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:48:43] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:48:43] ::1:60764 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:48:45] ::1:60764 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:49:54] ::1:60966 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:49:54] ::1:60966 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:49:54] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:49:54] ::1:60967 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:49:54] ::1:60967 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:51:52] ::1:61184 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:51:52] ::1:61184 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:51:52] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:51:52] ::1:61185 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:51:52] ::1:61185 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:52:20] ::1:61264 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:52:20] ::1:61264 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:52:20] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:52:20] ::1:61265 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:52:20] ::1:61265 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:52:42] ::1:61310 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:52:42] ::1:61310 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:52:42] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:52:42] ::1:61311 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:52:42] ::1:61311 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:53:31] ::1:61401 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:53:31] ::1:61401 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:53:31] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:53:31] ::1:61402 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:53:31] ::1:61402 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:58:45] ::1:61922 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:58:45] ::1:61922 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 16:58:45] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 16:58:45] ::1:61923 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 16:58:46] ::1:61923 - "POST /api/v1/collections/4a444480-58e4-4c82-9f24-63e1133ecc6c/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:10:48] ::1:63172 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:10:48] ::1:63172 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:10:48] ::1:63173 - "DELETE /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:10:48] ::1:63173 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:10:56] ::1:63173 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:10:56] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [10-07-2024 17:10:56] ::1:63173 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/upsert HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:10:56] ::1:63173 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:10] ::1:63470 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:10] ::1:63470 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:12:10] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:12:10] ::1:63471 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:10] ::1:63471 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:22] ::1:63499 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:22] ::1:63499 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:12:22] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:12:22] ::1:63500 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:22] ::1:63500 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:30] ::1:63525 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:30] ::1:63525 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:12:30] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:12:30] ::1:63526 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:30] ::1:63526 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:41] ::1:63559 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:41] ::1:63559 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:12:41] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:12:41] ::1:63560 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:41] ::1:63560 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:48] ::1:63581 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:48] ::1:63581 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:12:48] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:12:48] ::1:63582 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:12:48] ::1:63582 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:13:18] ::1:63644 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:13:18] ::1:63644 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:13:18] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:13:18] ::1:63645 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:13:18] ::1:63645 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:13:22] ::1:63661 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:13:22] ::1:63661 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:13:22] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:13:22] ::1:63662 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:13:22] ::1:63662 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:16:06] ::1:63934 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:16:06] ::1:63934 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:16:06] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:16:06] ::1:63935 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:16:06] ::1:63935 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:17:39] ::1:64105 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:17:39] ::1:64105 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:17:39] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:17:39] ::1:64106 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:17:39] ::1:64106 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:22:46] ::1:64611 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:22:46] ::1:64611 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:23:40] ::1:64738 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:23:40] ::1:64738 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:23:40] ::1:64739 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:23:41] ::1:64739 - "POST /api/v1/collections/e8ce39a1-e2df-4dfb-9305-7fa7c1bdff1e/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:24:40] ::1:64845 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:24:40] ::1:64845 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:24:45] ::1:64853 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:24:45] ::1:64853 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:24:45] ::1:64854 - "DELETE /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [10-07-2024 17:24:45] Collection my_collection does not exist.
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 105, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 100, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 118, in receive
+    return receiver.item
+           ^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/streams/memory.py", line 120, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 75, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/opt/homebrew/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 89, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 133, in async_wrapper
+    return await f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 626, in get_collection
+    await to_thread.run_sync(
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 146, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/petermariani/.local/pipx/venvs/chromadb/lib/python3.12/site-packages/chromadb/api/segment.py", line 262, in get_collection
+    raise ValueError(f"Collection {name} does not exist.")
+ValueError: Collection my_collection does not exist.
+[32mINFO[0m:     [10-07-2024 17:24:45] ::1:64854 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [10-07-2024 17:26:13] ::1:65003 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:13] ::1:65003 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:13] ::1:65004 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:29] ::1:65041 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:29] ::1:65041 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:26:29] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:26:29] ::1:65042 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:29] ::1:65042 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:38] ::1:65061 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:38] ::1:65061 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:26:38] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:26:38] ::1:65062 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:38] ::1:65062 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:45] ::1:65074 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:45] ::1:65074 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:26:45] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:26:45] ::1:65075 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:26:45] ::1:65075 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:02] ::1:65206 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:02] ::1:65206 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:28:02] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:28:02] ::1:65207 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:02] ::1:65207 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:09] ::1:65207 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:28:09] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [10-07-2024 17:28:09] ::1:65207 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/upsert HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:09] ::1:65207 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:39] ::1:65391 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:39] ::1:65391 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:28:39] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:28:39] ::1:65392 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:39] ::1:65392 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:28:40] ::1:65392 - "POST /api/v1/collections/891eee1a-996b-4005-a156-3fceed1fc831/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:35] ::1:49197 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:35] ::1:49197 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:35] ::1:49198 - "DELETE /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:35] ::1:49198 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:35] ::1:49198 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:42] ::1:49198 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:30:42] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [10-07-2024 17:30:43] ::1:49198 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:30:55] ::1:49198 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/query HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:40:57] ::1:50385 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:40:57] ::1:50385 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [10-07-2024 17:40:57] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [10-07-2024 17:40:57] ::1:50386 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:40:57] ::1:50386 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/get HTTP/1.1" 200
+[32mINFO[0m:     [10-07-2024 17:40:58] ::1:50386 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/query HTTP/1.1" 200
+[32mINFO[0m:     [13-07-2024 21:12:06] ::1:58858 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [13-07-2024 21:12:06] ::1:58858 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [13-07-2024 21:12:06] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [13-07-2024 21:12:06] ::1:58860 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [13-07-2024 21:12:06] ::1:58860 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/get HTTP/1.1" 200
+[32mINFO[0m:     [13-07-2024 21:12:07] ::1:58860 - "POST /api/v1/collections/48310db6-acbb-4850-8934-2e8ce1a6d2b7/query HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:28:48] ::1:55515 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:28:48] ::1:55515 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:28:48] ::1:55516 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:28:48] ::1:55516 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:03] ::1:56016 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:03] ::1:56016 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:14] ::1:56028 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:14] ::1:56028 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:36:14] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:36:14] ::1:56029 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:24] ::1:56050 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:24] ::1:56050 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:36:24] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:36:24] ::1:56051 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:44] ::1:56075 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:36:44] ::1:56075 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:36:44] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:36:44] ::1:56076 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:37:36] ::1:56140 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:37:36] ::1:56140 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:37:36] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:37:36] ::1:56141 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:37:47] ::1:56157 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:37:47] ::1:56157 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:37:47] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:37:47] ::1:56158 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:37:50] ::1:56165 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:37:50] ::1:56165 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:37:50] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:37:50] ::1:56166 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:38:18] ::1:56220 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:38:18] ::1:56220 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:38:18] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:38:18] ::1:56221 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:38:22] ::1:56226 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:38:22] ::1:56226 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:38:22] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:38:22] ::1:56227 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:38:52] ::1:56275 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:38:52] ::1:56275 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:38:52] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:38:52] ::1:56276 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:39:01] ::1:56304 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:39:01] ::1:56304 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:39:01] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:39:01] ::1:56305 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:44:39] ::1:56681 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:44:39] ::1:56681 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:44:39] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:44:39] ::1:56682 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:45:01] ::1:56716 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:45:01] ::1:56716 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:45:01] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:45:01] ::1:56717 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:45:12] ::1:56729 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:45:12] ::1:56729 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:45:12] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:45:12] ::1:56730 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:45:32] ::1:56755 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 16:45:32] ::1:56755 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 16:45:32] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 16:45:32] ::1:56756 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:02:14] ::1:57746 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:02:14] ::1:57746 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:02:14] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:02:14] ::1:57747 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:02:28] ::1:57806 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:02:28] ::1:57806 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:02:28] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:02:28] ::1:57807 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:03:37] ::1:57909 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:03:37] ::1:57909 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:03:37] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:03:37] ::1:57910 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:04:39] ::1:58025 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:04:39] ::1:58025 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:04:39] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:04:39] ::1:58026 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:05:46] ::1:58104 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:05:46] ::1:58104 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:05:46] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:05:46] ::1:58105 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:05:59] ::1:58121 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:05:59] ::1:58121 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:05:59] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:05:59] ::1:58122 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:06:35] ::1:58165 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:06:35] ::1:58165 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:06:35] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:06:35] ::1:58166 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:07:24] ::1:58284 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:07:24] ::1:58284 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:07:24] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:07:24] ::1:58285 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:09] ::1:58851 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:09] ::1:58851 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:14:09] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:14:09] ::1:58852 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:21] ::1:58877 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:21] ::1:58877 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:14:21] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:14:21] ::1:58878 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:29] ::1:58898 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:29] ::1:58898 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:14:29] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:14:29] ::1:58899 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:48] ::1:58931 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:14:48] ::1:58931 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:14:48] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:14:48] ::1:58932 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:15:03] ::1:58958 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:15:03] ::1:58958 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:15:03] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:15:03] ::1:58959 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:19:59] ::1:59322 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:19:59] ::1:59322 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:19:59] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:19:59] ::1:59323 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:20:08] ::1:59341 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:20:08] ::1:59341 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:20:08] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:20:08] ::1:59342 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:20:34] ::1:59375 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:20:34] ::1:59375 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:20:34] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:20:34] ::1:59376 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:21:02] ::1:59442 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:21:02] ::1:59442 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:21:02] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:21:02] ::1:59443 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:21:09] ::1:59457 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:21:09] ::1:59457 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:21:09] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:21:09] ::1:59458 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:22:51] ::1:59651 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:22:51] ::1:59651 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:22:51] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:22:51] ::1:59652 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:22:59] ::1:59666 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:22:59] ::1:59666 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:22:59] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:22:59] ::1:59667 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:23:31] ::1:59700 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:23:31] ::1:59700 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:23:31] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:23:31] ::1:59701 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:23:49] ::1:59724 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:23:49] ::1:59724 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:23:49] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:23:49] ::1:59725 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:24:14] ::1:59758 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:24:14] ::1:59758 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:24:14] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:24:14] ::1:59759 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:24:21] ::1:59773 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:24:21] ::1:59773 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:24:21] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:24:21] ::1:59774 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:24:25] ::1:59793 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:24:25] ::1:59793 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:24:25] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:24:25] ::1:59794 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:01] ::1:59862 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:01] ::1:59862 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:25:01] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:25:01] ::1:59863 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:13] ::1:59893 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:13] ::1:59893 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:25:13] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:25:13] ::1:59894 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:33] ::1:59919 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:33] ::1:59919 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:25:33] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:25:33] ::1:59920 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:46] ::1:59942 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:25:46] ::1:59942 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:25:46] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:25:46] ::1:59943 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:26:49] ::1:60077 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:26:49] ::1:60077 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:26:49] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:26:49] ::1:60078 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:28:24] ::1:60180 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:28:24] ::1:60180 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:28:24] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:28:24] ::1:60181 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:28:28] ::1:60190 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:28:28] ::1:60190 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:28:28] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:28:28] ::1:60191 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:29:02] ::1:60229 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:29:02] ::1:60229 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:29:02] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:29:02] ::1:60230 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:29:12] ::1:60258 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:29:12] ::1:60258 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:29:12] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:29:12] ::1:60259 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:30:07] ::1:60334 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:30:07] ::1:60334 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:30:07] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:30:07] ::1:60335 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:30:20] ::1:60360 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:30:20] ::1:60360 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:30:20] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:30:20] ::1:60361 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:30:35] ::1:60385 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:30:35] ::1:60385 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:30:35] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:30:35] ::1:60386 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:31:36] ::1:60472 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:31:36] ::1:60472 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:31:36] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:31:36] ::1:60473 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:32:46] ::1:60591 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:32:46] ::1:60591 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:32:46] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:32:46] ::1:60592 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:32:59] ::1:60634 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:32:59] ::1:60634 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:32:59] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:32:59] ::1:60635 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:34:13] ::1:60720 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:34:13] ::1:60720 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:34:13] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:34:13] ::1:60721 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:34:49] ::1:60758 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:34:49] ::1:60758 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:34:49] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:34:49] ::1:60759 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:35:33] ::1:60811 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:35:33] ::1:60811 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:35:33] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:35:33] ::1:60812 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:35:56] ::1:60866 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:35:56] ::1:60866 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:35:56] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:35:56] ::1:60867 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:36:10] ::1:60903 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:36:10] ::1:60903 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:36:10] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:36:10] ::1:60904 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:36:35] ::1:60928 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:36:35] ::1:60928 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:36:35] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:36:35] ::1:60929 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:41:43] ::1:61420 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:41:43] ::1:61420 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:41:43] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:41:43] ::1:61421 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:42:12] ::1:61464 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:42:12] ::1:61464 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:42:12] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:42:12] ::1:61465 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:42:44] ::1:61501 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:42:44] ::1:61501 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:42:44] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:42:44] ::1:61502 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:43:03] ::1:61530 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:43:03] ::1:61530 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:43:03] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:43:03] ::1:61531 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:44:23] ::1:61644 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:44:23] ::1:61644 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:44:23] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:44:23] ::1:61645 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:44:58] ::1:61701 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:44:58] ::1:61701 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:44:58] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:44:58] ::1:61702 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:45:26] ::1:61763 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:45:26] ::1:61763 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:45:26] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:45:26] ::1:61764 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:45:34] ::1:61778 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:45:34] ::1:61778 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:45:34] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:45:34] ::1:61779 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:52:35] ::1:62348 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:52:35] ::1:62348 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:52:35] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:52:35] ::1:62349 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:52:35] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:52:37] ::1:62349 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:52:37] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [15-07-2024 17:52:37] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:38] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:38] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:39] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:39] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:40] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:40] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:41] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:41] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:41] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:42] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:42] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:52:43] ::1:62349 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/add HTTP/1.1" 201
+[32mINFO[0m:     [15-07-2024 17:54:00] ::1:62577 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:54:00] ::1:62577 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [15-07-2024 17:54:00] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [15-07-2024 17:54:00] ::1:62578 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:54:00] ::1:62578 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [15-07-2024 17:54:00] ::1:62578 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 09:56:43] ::1:64883 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 09:56:43] ::1:64883 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 09:56:44] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 09:56:44] ::1:64884 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 09:56:44] ::1:64884 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:02:38] ::1:65322 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:02:38] ::1:65322 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:02:38] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:02:38] ::1:65323 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:02:38] ::1:65323 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:02:38] ::1:65323 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:07:12] ::1:49186 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:07:12] ::1:49186 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:07:12] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:07:12] ::1:49187 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:07:12] ::1:49187 - "POST /api/v1/collections/76cbc721-e762-470f-a926-a01aadcf60eb/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:07:32] ::1:49208 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:07:32] ::1:49208 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:07:32] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:07:32] ::1:49209 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:08:02] ::1:49287 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:08:02] ::1:49287 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:08:02] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:08:02] ::1:49288 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:08:12] ::1:49298 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:08:12] ::1:49298 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:08:12] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:08:12] ::1:49299 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:08:40] ::1:49313 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:08:40] ::1:49313 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:08:40] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:08:40] ::1:49314 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:09:13] ::1:49353 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:09:13] ::1:49353 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:09:13] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:09:13] ::1:49354 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:09:35] ::1:49371 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:09:35] ::1:49371 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:09:35] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:09:35] ::1:49372 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:01] ::1:49518 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:01] ::1:49518 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:12:01] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:12:01] ::1:49519 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:10] ::1:49527 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:10] ::1:49527 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:12:10] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:12:10] ::1:49528 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:27] ::1:49541 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:27] ::1:49541 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:12:27] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:12:27] ::1:49542 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:52] ::1:49554 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:12:52] ::1:49554 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:12:52] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 10:12:52] ::1:49555 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:13:45] ::1:49587 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:13:45] ::1:49587 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:13:45] ::1:49588 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:13:45] ::1:49588 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:13:45] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:13:47] ::1:49588 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:13:47] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [17-07-2024 10:13:47] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:48] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:48] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:49] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:49] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:49] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:50] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:50] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:51] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:51] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:52] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:52] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:53] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:13:53] ::1:49588 - "POST /api/v1/collections/d3be8147-68b3-47cd-a2b5-4cc8a3adf3bc/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:15:14] ::1:49813 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:15:14] ::1:49813 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:15:14] ::1:49814 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:15:14] ::1:49814 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:15:14] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 10:15:15] ::1:49814 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 10:15:15] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [17-07-2024 10:15:15] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:16] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:17] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:19] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:20] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:21] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:22] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:24] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:25] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:27] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:28] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:29] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:30] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 10:15:30] ::1:49814 - "POST /api/v1/collections/837d5ad5-218d-4fc7-bd3e-8c38fc304fdf/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:07:56] ::1:55786 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:07:56] ::1:55786 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:07:56] ::1:55787 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:07:56] ::1:55787 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:07:56] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:07:58] ::1:55787 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:07:58] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [17-07-2024 16:07:58] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:07:59] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:00] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:01] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:03] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:04] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:05] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:07] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:08] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:10] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:11] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:13] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:14] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:08:14] ::1:55787 - "POST /api/v1/collections/318430a4-fa35-4ca6-b3c1-4d7b50a106ef/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:09:00] ::1:56120 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:09:00] ::1:56120 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:09:01] ::1:56121 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:09:01] ::1:56121 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:09:01] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:09:08] ::1:56121 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:09:08] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [17-07-2024 16:09:09] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:15] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:23] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:30] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:37] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:42] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:49] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:09:56] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:10:01] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:10:09] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:10:17] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:10:25] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:10:32] ::1:56121 - "POST /api/v1/collections/90d020a3-5368-43fe-91e3-e6ae79c731c2/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:11:33] ::1:57880 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:11:33] ::1:57880 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:11:33] ::1:57881 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:11:33] ::1:57881 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:11:33] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:11:41] ::1:57881 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:11:41] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [17-07-2024 16:11:41] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:11:47] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:11:54] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:01] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:08] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:12] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:20] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:26] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:31] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:40] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:48] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:12:56] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:13:03] ::1:57881 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/add HTTP/1.1" 201
+[32mINFO[0m:     [17-07-2024 16:14:16] ::1:59726 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:14:16] ::1:59726 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:14:17] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 16:14:17] ::1:59727 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:14:17] ::1:59727 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:14:35] ::1:59727 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/query HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:16:16] ::1:59883 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:16:16] ::1:59883 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:16:16] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 16:16:16] ::1:59884 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:16:16] ::1:59884 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:04] ::1:59976 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:04] ::1:59976 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:17:04] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 16:17:04] ::1:59977 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:04] ::1:59977 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:12] ::1:59977 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/query HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:25] ::1:59992 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:25] ::1:59992 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:17:25] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 16:17:25] ::1:59993 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:25] ::1:59993 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:17:34] ::1:59993 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/query HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:19:43] ::1:60207 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:19:43] ::1:60207 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [17-07-2024 16:19:43] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [17-07-2024 16:19:43] ::1:60208 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:19:43] ::1:60208 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/get HTTP/1.1" 200
+[32mINFO[0m:     [17-07-2024 16:19:56] ::1:60208 - "POST /api/v1/collections/208924db-2118-481f-9456-b6921f8725c9/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 13:29:05] ::1:61885 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 13:29:05] ::1:61885 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 13:29:06] ::1:61886 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 13:29:06] ::1:61886 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 13:29:06] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 13:29:15] ::1:61886 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 13:29:15] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [18-07-2024 13:29:16] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:29:22] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:29:30] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:29:37] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:29:45] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:29:50] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:29:57] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:30:04] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:30:09] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:30:18] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:30:26] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:30:34] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 13:30:41] ::1:61886 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:51:09] ::1:55653 - "POST /api/v1/collections/5daec350-b7af-4e92-b90c-b9ebacbc32d3/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 15:53:36] ::1:55818 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 15:53:36] ::1:55818 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 15:53:36] ::1:55819 - "DELETE /api/v1/collections/city-of-god?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 15:53:36] ::1:55819 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 15:53:36] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 15:53:44] ::1:55819 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 15:53:44] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [18-07-2024 15:53:45] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:53:51] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:53:59] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:06] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:13] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:18] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:26] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:33] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:37] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:46] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:54:54] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:55:01] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 15:55:08] ::1:55819 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/add HTTP/1.1" 201
+[32mINFO[0m:     [18-07-2024 17:31:38] ::1:63149 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:31:38] ::1:63149 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:31:38] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:31:38] ::1:63150 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:31:38] ::1:63150 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:31:48] ::1:63166 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:31:48] ::1:63166 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:31:48] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:31:48] ::1:63167 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:31:48] ::1:63167 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:03] ::1:63183 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:03] ::1:63183 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:32:03] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:32:03] ::1:63184 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:03] ::1:63184 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:35] ::1:63265 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:35] ::1:63265 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:32:35] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:32:35] ::1:63266 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:35] ::1:63266 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:32:36] ::1:63266 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:12] ::1:63471 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:12] ::1:63471 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:35:12] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:35:12] ::1:63472 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:12] ::1:63472 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:13] ::1:63472 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:47] ::1:63513 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:47] ::1:63513 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:35:47] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:35:47] ::1:63514 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:47] ::1:63514 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:47] ::1:63514 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:58] ::1:63559 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:58] ::1:63559 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:35:58] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:35:58] ::1:63560 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:58] ::1:63560 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:35:58] ::1:63560 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:27] ::1:63842 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:27] ::1:63842 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:40:27] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:40:27] ::1:63843 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:27] ::1:63843 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:27] ::1:63843 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:40] ::1:63873 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:40] ::1:63873 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:40:40] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:40:40] ::1:63874 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:40] ::1:63874 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:40] ::1:63874 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:55] ::1:63893 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:55] ::1:63893 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:40:55] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:40:55] ::1:63894 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:55] ::1:63894 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:40:55] ::1:63894 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:41:53] ::1:63965 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:41:53] ::1:63965 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:41:53] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:41:53] ::1:63966 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:41:53] ::1:63966 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:41:53] ::1:63966 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:43:15] ::1:64051 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:43:15] ::1:64051 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:43:15] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:43:15] ::1:64052 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:43:15] ::1:64052 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:43:15] ::1:64052 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:44:30] ::1:64132 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:44:30] ::1:64132 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:44:30] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:44:30] ::1:64133 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:44:30] ::1:64133 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:44:30] ::1:64133 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:31] ::1:64223 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:31] ::1:64223 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:45:31] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:45:31] ::1:64224 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:31] ::1:64224 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:31] ::1:64224 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:45] ::1:64249 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:45] ::1:64249 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:45:45] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:45:45] ::1:64250 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:45] ::1:64250 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:45] ::1:64250 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:50] ::1:64261 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:50] ::1:64261 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:45:50] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:45:50] ::1:64262 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:50] ::1:64262 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:45:50] ::1:64262 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:46:14] ::1:64298 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:46:14] ::1:64298 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:46:14] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:46:14] ::1:64299 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:46:14] ::1:64299 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:46:14] ::1:64299 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:47:58] ::1:64430 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:47:58] ::1:64430 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:47:58] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:47:58] ::1:64431 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:47:58] ::1:64431 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:47:58] ::1:64431 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:06] ::1:64444 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:06] ::1:64444 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:48:06] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:48:06] ::1:64445 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:06] ::1:64445 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:06] ::1:64445 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:24] ::1:64487 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:24] ::1:64487 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:48:24] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:48:24] ::1:64488 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:24] ::1:64488 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:24] ::1:64488 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:38] ::1:64519 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:38] ::1:64519 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [18-07-2024 17:48:38] Collection city-of-god already exists, returning existing collection.
+[32mINFO[0m:     [18-07-2024 17:48:38] ::1:64520 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:38] ::1:64520 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/get HTTP/1.1" 200
+[32mINFO[0m:     [18-07-2024 17:48:38] ::1:64520 - "POST /api/v1/collections/9ca91098-2610-4b04-b1e7-368abd48f9e6/query HTTP/1.1" 200
+[32mINFO[0m:     [08-08-2024 10:27:31] Shutting down
+[32mINFO[0m:     [08-08-2024 10:27:31] Waiting for application shutdown.
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component System
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component SegmentAPI
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component Posthog
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component SqliteDB
+[36mDEBUG[0m:    [08-08-2024 10:27:31] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [08-08-2024 10:27:31] Application shutdown complete.
+[32mINFO[0m:     [08-08-2024 10:27:31] Finished server process [[36m83657[0m]
